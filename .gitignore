@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+Langchain_Tutor/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace / model cache
+.cache/
+huggingface_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
