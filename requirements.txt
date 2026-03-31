@@ -3,6 +3,9 @@
 langchain
 langchain-core
 
+# Langchain Classic
+langchain_classic
+
 # OpenAI Integration
 langchain-openai
 openai
