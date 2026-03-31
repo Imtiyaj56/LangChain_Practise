@@ -31,6 +31,7 @@ print(result)
 print(type(result))
 
 """
-    Disadvantage : It does not able to enforce schema of json pf our choice.
-    solution : This Problem is solved by "StructuredOutputParser".
+    Disadvantage : It does not able to enforce schema of json pf our choice, Json format(schema)
+                   is only decided by LLLM.
+    Solution : This Problem is solved by "StructuredOutputParser".
 """
