@@ -32,7 +32,7 @@ template1 = PromptTemplate(
 
 # 2nd Prompt --> Summary of Prompt
 template2 = PromptTemplate(
-    template='Write a 5 line summary on following text. /n {text}',
+    template='Write a 5 line summary on following text. \n {text}',
     input_variables=['text']
 )
 

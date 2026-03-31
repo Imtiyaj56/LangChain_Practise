@@ -24,7 +24,7 @@ template1 = PromptTemplate(
 
 # 2nd Prompt --> Summary of Prompt
 template2 = PromptTemplate(
-    template='Write a 5 line summary on following text. /n {text}',
+    template='Write a 5 line summary on following text. \n {text}',
     input_variables=['text']
 )
 
@@ -35,3 +35,7 @@ chain = template1 | model | parser | template2 | model | parser
 result = chain.invoke({'topic': 'Indian Independence'})
 
 print(result)
+
+'''Thus using Parser our steps are dramatically reduced and our \
+    code looks more cleaner and easy to understand and short.
+'''
