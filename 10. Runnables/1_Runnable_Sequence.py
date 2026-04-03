@@ -1,3 +1,6 @@
+'''We have already implemented it many times, ex : chain = template | model | parser'''
+''' RunnableSequence(template, model, parser) = template | model | parser'''
+
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
