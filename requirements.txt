@@ -41,3 +41,5 @@ langchain-classic
 #extra-things
 pypdf
 beautifulsoup4
+wikipedia-api
+chromadb
