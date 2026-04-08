@@ -12,7 +12,7 @@ def multiply(a: int, b: int) -> int:
 
 
 
-#tool binding
+#tool binding : Process of connecting tool with llm
 
 model = ChatGroq(model='llama-3.3-70b-versatile')
 llm_with_tool = model.bind_tools([multiply])
